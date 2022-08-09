@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER altaf@123
 RUN apt-get update
-COPY index.html
-EXPOSE 5000
+COPY . .
+EXPOSE 9090
 CMD ["run","index.html"]
 
