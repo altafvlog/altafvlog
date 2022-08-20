@@ -3,5 +3,5 @@ MAINTAINER altaf@123
 RUN apt-get update
 COPY . .
 EXPOSE 9090
-CMD ["run","index.html"]
+CMD ["run","eco' "mmywebsite"]
 
